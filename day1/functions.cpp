@@ -1,6 +1,6 @@
 #include<iostream.h>
 using namespace std;
-void display_max(int a=0,int b=0)
+void display_max(int a,int b=0)
 {
     if (a>b)
     {
@@ -21,6 +21,6 @@ int main()
     int q,w;
     cout<<"Enter 2 number ";
     cin>>q>>w;
-    display_max();
+    display_max(w);
     display_max(q,w);
 }
