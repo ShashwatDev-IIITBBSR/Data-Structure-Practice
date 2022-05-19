@@ -1,0 +1,20 @@
+[main] tempCodeRunnerFile 1000 (0) exception: trapped!
+[main] tempCodeRunnerFile 1000 (0) exception: code 0xC0000005 at 0x401B52
+[main] tempCodeRunnerFile 1000 (0) exception: ax 0x61006318 bx 0x4140A4 cx 0x414244 dx 0x5
+[main] tempCodeRunnerFile 1000 (0) exception: si 0x0 di 0x401000 bp 0x246FD68 sp 0x246FD48
+[main] tempCodeRunnerFile 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] tempCodeRunnerFile 1000 (0) stack: Stack trace:
+[main] tempCodeRunnerFile 1000 (0) stack: frame 0: sp = 0x246F750, pc = 0x6100A2C3
+[main] tempCodeRunnerFile 1000 (0) stack: frame 1: sp = 0x246F78C, pc = 0x77998B32
+[main] tempCodeRunnerFile 1000 (0) stack: frame 2: sp = 0x246F7B0, pc = 0x77998B04
+[main] tempCodeRunnerFile 1000 (0) stack: frame 3: sp = 0x246F878, pc = 0x77977026
+[main] tempCodeRunnerFile 1000 (0) stack: frame 4: sp = 0x246FD68, pc = 0x4010E5
+[main] tempCodeRunnerFile 1000 (0) stack: frame 5: sp = 0x246FD8C, pc = 0x61004402
+[main] tempCodeRunnerFile 1000 (0) stack: frame 6: sp = 0x246FF3C, pc = 0x61004420
+[main] tempCodeRunnerFile 1000 (0) stack: frame 7: sp = 0x246FF48, pc = 0x41323E
+[main] tempCodeRunnerFile 1000 (0) stack: frame 8: sp = 0x246FF58, pc = 0x40103A
+[main] tempCodeRunnerFile 1000 (0) stack: frame 9: sp = 0x246FF74, pc = 0x770B6739
+[main] tempCodeRunnerFile 1000 (0) stack: frame 10: sp = 0x246FF84, pc = 0x77968E7F
+[main] tempCodeRunnerFile 1000 (0) stack: frame 11: sp = 0x246FFDC, pc = 0x77968E4D
+[main] tempCodeRunnerFile 1000 (0) stack: frame 12: sp = 0x246FFEC, pc = 0x0
+[main] tempCodeRunnerFile 1000 (0) stack: End of stack trace
