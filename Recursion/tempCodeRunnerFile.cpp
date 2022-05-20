@@ -7,14 +7,14 @@ void func(int n)
     }
     else
     {
-        cout<<n<<" ";
         func(n-1);
+        cout<<n<<" ";
     }
 }
 int main()
 {
     int a;
-    cout<<"Enter a positive number ";
+    cout<<"Enter a positive number "<<endl;
     cin>>a;
     func(a);
 }

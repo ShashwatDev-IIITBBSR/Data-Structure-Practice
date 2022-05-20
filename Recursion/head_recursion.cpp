@@ -14,7 +14,7 @@ void func(int n)
 int main()
 {
     int a;
-    cout<<"Enter a positive number ";
+    cout<<"Enter a positive number "<<endl;
     cin>>a;
     func(a);
 }
