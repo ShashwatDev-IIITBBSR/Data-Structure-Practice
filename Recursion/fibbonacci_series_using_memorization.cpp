@@ -12,6 +12,8 @@ int fibbo(int n)
     {
         A[n-3]=fibbo(n-3)+fibbo(n-4);
     }
+    /* Using an Array to save factorial values so that compiler doesn't have to calculate factorial every single time.
+    Compiler would just look into array and find factorial value*/ 
     return A[n-2]+A[n-3];
 }
 int main()
