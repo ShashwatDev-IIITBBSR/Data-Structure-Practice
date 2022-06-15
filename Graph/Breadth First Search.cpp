@@ -53,7 +53,7 @@ int main()
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<n+1;i++)
     {
         k=adj[i];
         s=k.size();
@@ -69,6 +69,3 @@ int main()
         cout<<k[i];
     }
 }
-
-
-
