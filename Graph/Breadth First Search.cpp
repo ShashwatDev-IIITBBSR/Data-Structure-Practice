@@ -37,6 +37,7 @@ vector<int> breadth_first_search(int num_of_nodes,vector<int> adj[])
     }
     return bfs;
 }
+
 int main()
 {
     int m,n,i,j,u,v,s;
